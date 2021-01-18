@@ -8,17 +8,18 @@
     android:padding="20dp">
 
     <TextView
-        android:id="@+id/textUseraname"
+        android:id="@+id/textUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Username"
         android:padding="10dp"
-        android:text="Usernaame"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGOUT"
-        app:layout_constraintTop_toBottomOf="@id/textUseraname"/>
+        android:text="Logout"
+        app:layout_constraintTop_toBottomOf="@id/textUsername"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

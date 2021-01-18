@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Android Share Preference"
+rootProject.name = "Android Share Preferences Lazday"
